@@ -1,0 +1,41 @@
+{
+  "name": "nexus-core-contracts",
+  "version": "1.0.0",
+  "description": "Project Nexus - Revolutionizing Digital Ownership in Social Media - Smart Contract Foundation",
+  "engines": {
+    "node": ">=16.0.0 <19.0.0"
+  },
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/project-nexus/nexus-contracts.git"
+  },
+  "author": "Project Nexus Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/project-nexus/nexus-contracts/issues"
+  },
+  "homepage": "https://github.com/project-nexus/nexus-contracts#readme",
+  "devDependencies": {
+    "@ethersproject/abi": "^5.7.0",
+    "@ethersproject/providers": "^5.7.2",
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.5",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.7",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "@nomiclabs/hardhat-etherscan": "^3.1.4",
+    "chai": "^4.3.7",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.5",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.8.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "dotenv": "^17.2.3"
+  }
+}
